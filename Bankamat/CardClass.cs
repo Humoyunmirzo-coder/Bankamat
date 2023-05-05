@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Bankamat
 {
-    internal class CardClass
-    {
+    public  class CardClass 
+    {   
+        public CardClass()
+        {
+               
+        }
     }
 }

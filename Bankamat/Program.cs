@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Bankomat bankamat = new Bankomat();
+            bankamat.Adress();
+            bankamat.SelectLanguage();
+            bankamat.Enterpin();
         }
     }
 }
